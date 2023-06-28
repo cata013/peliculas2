@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!----------------------------------Navbar---------------------------------------------------->
+<body class="bg-space">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-red">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Cinema</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="movies.html">Películas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Sobre nosotros</a>
+              </li>
+            </ul>
+          </div>
+    </div>
+  </nav>
+<!----------------------------Fin del Navbar----------------------------------------------->
+
+<div class="container mt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img src="img/forestgumpchiquito.jpg" class="card-img-top" alt="Película 1">
+      </div>
+      <div class="col mt-4">
+        <h1 class="">Película 1</h1>
+        <p class="">Descripción de la película 1.</p>
+        <p class="">Director: Nombre del director.</p>
+        <p class="">Género: Género de la película.</p>
+        <!-----------------------------------modal con la barra de progreso antes de comenzar la descarga------->
+        <button id="submit" class="btn btn-primary">Descargar</button>
+      </div>
+    </div>
+</div>
+<!-----------------------el modal para la barra de progreso-->
+<div class="modal fade" id="progresoModal" tabindex="-1" aria-labelledby="progresoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="progresoModalLabel">Progreso de carga</h5>
+      </div>
+      <div class="modal-body">
+        <div class="progress">
+          <div id="progressBar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class=" container videover mt-5">
+  <h2 class="mb-4">Ver pelicula online</h2>
+  <iframe width="100%" height="800" src="https://www.youtube.com/embed/LRTOUqLmuAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+  <div class="container mt-5 mb-5">
+    <h5>Déjanos tu opinión</h5>
+  <div class="row">
+    <div class="col-md-3">
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <label for="coment">Comentario:</label>
+        <textarea class="mt-1" type="text" id="coment"></textarea>
+          <button onclick="comentario()" type="button" class="btn btn-primary mt-1">comentar</button>
+      </form>
+    </div>
+    <div class="col-md-6 mb-5">
+       <div id="agregar"></div>
+    </div>
+  </div>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="movieuno.js"></script>
+</body>
+<footer class="bg-red text-white text-center py-3">
+  <p>&copy; 2023 Sitio web de películas. Todos los derechos reservados.</p>
+</footer>
+</html>

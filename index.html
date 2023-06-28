@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<!----------------------------------Navbar---------------------------------------------------->
+<body class="bg-space">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-space">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Cinema</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="movies.html">Películas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Sobre nosotros</a>
+              </li>
+            </ul>
+          </div>
+    </div>
+  </nav>
+  <!----------------------------Fin del Navbar----------------------------------------------->
+
+    <div id="particles-js">
+      <section class="jumbotron text-center position">
+        <div class="container">
+          <h1 class="display-4 mt-5">Bienvenido al mundo de películas</h1>
+          <p class="lead mt-5">¿Nuevo cinéfilo? Explora nuestra amplia selección de películas.</p>
+          <a href="movies.html" class="btn btn-primary">Ver películas</a>
+        </div>
+      </section>
+    </div>
+
+  <div class="sliderdestacados container">
+    <div class="swiper mt-5">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"
+        style="background-image: url(img/harrypotter.jpg);" ></div>
+        <div class="swiper-slide"
+        style="background-image: url(img/shrek.jpg);" ></div>
+        <div class="swiper-slide"
+        style="background-image: url(img/mrfox.jpg);" ></div>
+        <div class="swiper-slide"
+        style="background-image: url(img/laeradelhielo.jpg);" ></div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+      <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+  </div><!-- Slider main container -->
+
+
+<div class="container margin">
+  <h2>Estrenos recientes:</h2>
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="img/mariobros.jpg" class="card-img-top" alt="Película 1">
+          <div class="card-body">
+              <h5 class="card-title">Súper Mario Bross</h5>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, beatae.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Leer más</button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Mario Bross, la película</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <ul>
+                          <li>Fecha de estreno: Lorem, ipsum dolor.</li>
+                          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde consequuntur dicta vel tenetur quam voluptas optio sunt esse cumque perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aliquam quisquam quos blanditiis dolor laboriosam!</li>
+                          <li>Cines: Lorem ipsum dolor sit amet.</li>
+                          <li>Horarios: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, incidunt.</li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <a href= "https://www.cinemark.cl/peliculas?gclid=EAIaIQobChMIoKu9oZTl_wIVIuxcCh23hQfiEAAYASABEgKhhvD_BwE" type="button" class="btn btn-primary">Ir al cine</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+            </div>
+          </div>
+        
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="img/mariobros.jpg" class="card-img-top" alt="Película 1">
+            <div class="card-body">
+              <h5 class="card-title">Súper Mario Bross</h5>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, beatae.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Leer más</button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Mario Bross, la película</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <ul>
+                          <li>Fecha de estreno: Lorem, ipsum dolor.</li>
+                          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde consequuntur dicta vel tenetur quam voluptas optio sunt esse cumque perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aliquam quisquam quos blanditiis dolor laboriosam!</li>
+                          <li>Cines: Lorem ipsum dolor sit amet.</li>
+                          <li>Horarios: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, incidunt.</li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <a href= "https://www.cinemark.cl/peliculas?gclid=EAIaIQobChMIoKu9oZTl_wIVIuxcCh23hQfiEAAYASABEgKhhvD_BwE" type="button" class="btn btn-primary">Ir al cine</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="img/mariobros.jpg" class="card-img-top" alt="Película 1">
+            <div class="card-body">
+                <h5 class="card-title">Súper Mario Bross</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, beatae.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Leer más</button>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Mario Bross, la película</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <ul>
+                            <li>Fecha de estreno: Lorem, ipsum dolor.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde consequuntur dicta vel tenetur quam voluptas optio sunt esse cumque perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aliquam quisquam quos blanditiis dolor laboriosam!</li>
+                            <li>Cines: Lorem ipsum dolor sit amet.</li>
+                            <li>Horarios: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, incidunt.</li>
+                          </ul>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          <a href= "https://www.cinemark.cl/peliculas?gclid=EAIaIQobChMIoKu9oZTl_wIVIuxcCh23hQfiEAAYASABEgKhhvD_BwE" type="button" class="btn btn-primary">Ir al cine</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+              </div>
+            </div>  
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="movie-highlight">
+      <div class="movie-info">
+        <h2>Forest Gump</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iste dolore sed. Unde totam molestias doloremque nisi, harum repellendus velit!</p>
+        <p>
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Leer más
+          </a>
+          <a href="movieuno.html" class="btn btn-primary">Ver más</a>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eligendi sapiente voluptatum debitis quod dignissimos exercitationem praesentium at sequi unde? Praesentium dolorem voluptates dolor molestiae. Amet harum delectus dolorum. A?
+          </div>
+        </div>
+      </div>
+      <div class="movie-image">
+        <img src="img/forestgump.jpg" alt="Imagen de la película">
+      </div>
+    </section>
+
+  </div>
+  
+
+  <div class="col-md-12">
+    <footer class="bg-red text-white text-center py-3">
+      <p>&copy; 2023 Sitio web de películas. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>

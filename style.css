@@ -1,0 +1,116 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+}
+h5{
+    font-family: 'Open Sans', sans-serif;
+}
+h6{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.bg-space{
+    background: #191A19;
+    color: rgb(255, 255, 255);
+}
+
+.bg-red{
+    background: #3D0000;
+    color: rgb(255, 255, 255);
+}
+
+
+body{
+color: #191A19;
+margin: 0;
+padding: 0;
+height: 100vh;
+}
+
+#particles-js{
+    height: 500px;
+    background: #191A19;
+}
+
+.position{
+    position: absolute;
+    margin-left: 20%;
+}
+
+.sliderdestacados{
+    height: 400px;
+}
+
+.swiper-slide {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper{
+    height: 500px;
+}
+
+.seccionpelicula{
+    margin-top: 100px;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.margin{
+    margin-top: 150px;
+}
+
+.movie-highlight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .movie-info {
+    width: 60%;
+  }
+  
+  .movie-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-image img {
+    width: 300px;
+    height: auto;
+  }
+
+.titulospeli{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+}
+  
